@@ -4,6 +4,7 @@ import type { WatchProps } from "../store/ShoppingCartStore.tsx";
 
 function ProductCollection() {
   const [watches, setWatches] = useState<WatchProps[]>([]);
+  // Product Collections
 
   useEffect(() => {
     fetch("https://my-json-server.typicode.com/arvochin/watch-api/watches")
