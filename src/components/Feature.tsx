@@ -1,4 +1,3 @@
-import React from 'react'
 import SignatureImage from './../assets/signature.png'
 import ChronoImage from './../assets/chrono.png'
 import VintageImage from './../assets/vintage.png'

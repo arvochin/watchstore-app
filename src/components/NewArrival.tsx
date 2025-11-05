@@ -1,11 +1,10 @@
-import React from 'react'
 import SignatureImage from './../assets/signature.png'
 import ChronoImage from './../assets/chrono.png'
 import VintageImage from './../assets/vintage.png'
-import useShoppingCart from '../store/ShoppingCartStore'
+// import useShoppingCart from '../store/ShoppingCartStore'
 
 function NewArrival() {
-    const addItemToCart = useShoppingCart((state) => state.addItemToCart)
+    // const addItemToCart = useShoppingCart((state) => state.addItemToCart)
   return (
     <div className='flex flex-col justify-center items-center bg-gray-100 text-black p-5'>
         <h2>New Arrivals</h2>

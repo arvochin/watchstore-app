@@ -1,16 +1,14 @@
-import React from 'react'
 import { Link } from "react-router-dom";
 
 import ShoppingBagSharpIcon from '@mui/icons-material/ShoppingBagSharp';
 import PersonOutlineSharpIcon from '@mui/icons-material/PersonOutlineSharp';
 import NavbarDrop from './NavbarDrop';
-import Collections from '../pages/Collections';
-import { useState } from 'react'
+// import { useState } from 'react'
 // import { Dialog, DialogBackdrop, DialogPanel, DialogTitle } from '@headlessui/react'
 // import { XMarkIcon } from '@heroicons/react/24/outline'
 
 function Header() {
-    const [open, setOpen] = useState(true)
+    //const [open, setOpen] = useState(true)
   return (
     <>
         <header className='bg-white p-3'>

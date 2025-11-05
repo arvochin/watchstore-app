@@ -1,12 +1,9 @@
-import React from 'react'
 import { useEffect, useState } from "react";
 import useShoppingCart from '../store/ShoppingCartStore'
-
-
+import type { WatchProps } from "../store/ShoppingCartStore.tsx";
 
 function ProductCollection() {
-
-  const [watches, setWatches] = useState([]);
+  const [watches, setWatches] = useState<WatchProps[]>([]);
 
   useEffect(() => {
     fetch("https://my-json-server.typicode.com/arvochin/watch-api/watches")
@@ -20,7 +17,7 @@ function ProductCollection() {
   return (
     <div className='bg-gray-300'>
       <div className='grid grid-cols-1 md:grid-cols-2'>
-          {watches.map(watch => (
+          {watches.map((watch) => (
             <div key={watch.id} className='bg-white rounded-xl shadow-md p-5 m-5'>
               <img src={watch.image} alt="" />
               <h3 className="font-semibold">{watch.name}</h3>
