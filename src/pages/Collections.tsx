@@ -1,4 +1,3 @@
-import React from 'react'
 import Header from '../components/Header'
 import SignatureImage from './../assets/signature.png'
 import ChronoImage from './../assets/chrono.png'

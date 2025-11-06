@@ -4,22 +4,22 @@ import Footer from '../components/Footer'
 import useShoppingCart from '../store/ShoppingCartStore'
 import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline';
 
-const products = [
-  {
-    id: 1,
-    name: 'Luxury Watch',
-    price: 299.99,
-    image: 'https://via.placeholder.com/80',
-    quantity: 1,
-  },
-  {
-    id: 2,
-    name: 'Classic Watch',
-    price: 199.99,
-    image: 'https://via.placeholder.com/80',
-    quantity: 2,
-  },
-]
+// const products = [
+//   {
+//     id: 1,
+//     name: 'Luxury Watch',
+//     price: 299.99,
+//     image: 'https://via.placeholder.com/80',
+//     quantity: 1,
+//   },
+//   {
+//     id: 2,
+//     name: 'Classic Watch',
+//     price: 199.99,
+//     image: 'https://via.placeholder.com/80',
+//     quantity: 2,
+//   },
+// ]
 
 const shipping_cost = 5.00
 

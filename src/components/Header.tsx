@@ -31,7 +31,7 @@ function Header() {
                 
                 {/* Icons */}
                 <div className='flex gap-2 mr-20'>
-                    <Link to={'/shoppingcart'} onClick={() => setOpen(true)}><ShoppingBagSharpIcon color='primary' href="#"/></Link>
+                    <Link to={'/shoppingcart'}><ShoppingBagSharpIcon color='primary' href="#"/></Link>
                     <Link to={'/useraccount'}><PersonOutlineSharpIcon color='primary' href="#"/></Link>
                 </div>
             </nav>
